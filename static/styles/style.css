@@ -1,0 +1,86 @@
+* 
+{
+    box-sizing: border-box
+}
+body{
+    margin: 0;
+}
+.container-fluid
+{
+    height: 100vh;
+    background-color: #363636;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
+}
+.social
+{
+    color: #fff;
+    list-style: none;
+    padding: 0;
+    display:flex;
+    justify-content: space-between;
+    width: 450px;
+}
+.social_item
+{
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.social_item{
+    cursor: pointer;
+}
+
+.facebook:hover
+{
+    border-color: #3b5998;
+    box-shadow: 0px 0px 20px #3b5998;
+    color: #3b5998
+}
+.whatsapp:hover
+{
+    border-color: #4dc247;
+    box-shadow: 0px 0px 20px #4dc247;
+
+    background: -webkit-linear-gradient(to right, #E5FFCC, #1EBEA5,#00E676,#D0E9EA,#EDF8F5,#ffffff);
+    background: linear-gradient(to right, #E5FFCC, #1EBEA5,#00E676,#D0E9EA,#EDF8F5,#ffffff);
+}
+.telegram:hover{
+    border-color: #0088cc;
+    box-shadow: 0px 0px 20px #0088cc;
+    
+    background: -webkit-linear-gradient(to right, #0088cc, #FFFFFF);
+    background: linear-gradient(to right, #0088cc, #FFFFFF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.twitter:hover{
+    border-color: #1da1f2;
+    box-shadow: 0px 0px 20px #1da1f2;
+    /*color: #1da1f2;*/
+    /*background: #00B4DB; */ /* fallback for old browsers  http://www.brandgradients.com/twitter-colors/*/
+    background: -webkit-linear-gradient(to right, #66757f,#00ACEE, #36D8FF,#f5f8fa,#ffffff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #66757f,#00ACEE, #36D8FF,#f5f8fa,#ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.vk:hover{
+    border-color: #165780;
+    box-shadow: 0px 0px 20px #165780;
+    color: #165780;
+}
+.instagram:hover{
+    border-color:#F77737;
+    box-shadow: 0px 0px 20px #F77737;
+      /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    /*color: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);*/
+}
